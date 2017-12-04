@@ -23,5 +23,5 @@ velocidad_modelo = Mb**0.5*r/(r**2+0.2497**2)**0.75 + Md**0.5*r/( r**2+(5.16+0.3
 ## PLOT 2
 plt.plot(r, velocidad_modelo, color="red")
 plt.legend(['Datos', 'Modelo'])
-plt.xlabel('r'); plt.ylabel('velocidad')
-plt.savefig('datos-modelo.png')
+plt.xlabel('r'); plt.ylabel('Velocidad [km/s]')
+plt.savefig('grafica.png')
