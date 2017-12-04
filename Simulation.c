@@ -5,10 +5,11 @@
 
 int main()
 {
+    /*Funciones de lectura */
     FILE *ptr_file;
     char buf[1000];
-
     ptr_file = fopen("RadialVelocities.dat", "r");
+
     if (!ptr_file)
         return 1;
 
